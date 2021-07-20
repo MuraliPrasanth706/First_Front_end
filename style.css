@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Booter-Zero Zero";
+    src: url("Fonts/Booter-Zero Zero.woff") format(woff),
+    url("Fonts/Booter-Zero Zero.woff2")format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+h4{
+ 
+    font-style: normal;
+    font-size: 4em;
+    color: white;
+    font-family:"Booter-Zero Zero"
+}
+*{
+
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html, body{
+    margin: 0;
+    padding:0;
+}
+ul{
+    margin: 0%;
+}
+
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .20em;
+    color: aliceblue;
+    text-decoration:none ;
+}
+#main-nav{
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,5);
+}
+.nav a:hover{
+background-color:dimgray;
+}
+.main-header{
+    background-color: rgba(0,0,0,0);
+    background-image:url("https://wallpaperaccess.com/full/3560410.jpg");
+    background-size: small;
+    background-blend-mode: multiply;
+    
+}
+.brand-name{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 2em;
+}
+.content-section{
+    margin: 1em ;
+}
+.container{
+    margin: 1em;
+    padding:  1.5em;
+}
+.section-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+}
+.bandpic{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color:skyblue;
+    color: white;
+    padding: .25em;
+    margin-bottom:0%;
+    padding-bottom: 0em;
+}
+.h3{
+  color: black;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.index-home{
+    text-align: right;
+}
+.homeh3{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    text-align: center;
+    vertical-align:middle ;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn-header{
+    margin: .5em 5% 2em 35%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255,255,255,.1);
+    border-radius: 0;
+    font-size: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: rgba(255,255,255,.3);
+
+}
+.btn1{
+    margin: .2em 2% 2em 2%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255,255,255,.1);
+    border-radius: 0;
+    font-size: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .5em;
+    border-radius: 50%;
+    padding: none;
+    width: 100px;
+    height: 75px;
+}
+.btn1:hover{
+    background-color: rgba(255,255,255,.3);
+}
+.music-tour{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;
+    color:black;
+} 
+.tour-row{
+
+    border-bottom: 1px;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.hr1{
+
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.hr1:last-child{
+    border-bottom:none;
+}
+.tour-item{
+    display:inline-block;
+    padding-right:4em;
+}
+.tour-date{
+    color: #555;
+   
+    font-weight: bold;
+    width: 11%;
+}
+.tour.city{
+    width: 24%;
+}
+.tour-arena{
+
+    width: 42%;
+}
+.tour-btn{
+    max-width:0%;
+}
+.btn-primary{
+    color: white;
+    background-color: skyblue;
+    border: none;
+    border-radius: 4%;
+}
+.btn.btn-primary:hover{
+    background-color: blue;
+    background-blend-mode: multiply;
+}
+.footer-nav{
+    margin-bottom: 0;
+}
+.shop-item{
+    margin: 30px;
+}
+.shop-item-title{
+    display: block;
+    width: 100px;
+    text-align:right;
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 15px;
+}
+.shop-item-img{
+    height:200px;
+}
+.shop-item-price{
+    flex-grow: 1;
+    color:gray;
+}
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5 px;
+}
+.shop-items{
+    display: flow-root;
+}
+.card-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+}
+.card-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+.card-row{
+    display: flex;
+}
+.card-item{
+    width: 45%;
+
+}
+.card-price{
+    width: 20%;
+    font-size: 1em;
+
+}
+.card-quantity{
+    width: 35%;
+
+}
+.card-item-title{
+    color:black;
+    margin-left: .5em;
+  font-size: 1.2em;
+}
+.card-item-img{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-danger{
+    color: white;
+    background-color: red;
+    border: 0;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color:royalblue;
+}
+.card-quantity-input{
+
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    background-color: white;
+    color: black;  
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;  
+}
+.card-row:last-child{
+    border-bottom: 1px solid black;
+}
+.card-row:last-child .cart-column{
+    border: none;
+}
+.card-total{
+    text-align: end;
+}
+.card-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+.btn-purchase{
+    display: block;
+
+    margin: 40px auto 80px auto;
+    font-size: 1.5em;
+
+
+}
